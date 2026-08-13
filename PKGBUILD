@@ -11,15 +11,15 @@ depends=(
     "systemd-resolvconf" "bluez" "bluez-utils" "blueman"
     
     # Desktop Environment
-    "ly" "hyprland" "wayland" "wofi" "nwg-look"
-    "hyprlock", "hyprpaper" "dconf-editor" "ffmpegthumbnailer"
+    "ly" "hyprland" "wayland" "wofi" "nwg-look" "waybar" "seahorse"
+    "hyprlock" "hyprpaper" "dconf-editor" "ffmpegthumbnailer" "usbutils"
     
     # Fonts
-    "ttf-dejavu" "noto-fonts" "otf-font-awesome"
+    "ttf-dejavu" "noto-fonts" "otf-font-awesome" "nerd-fonts"
 
     # Support Apps
-    "git" "alacritty" "nemo" "nemo-fileroller"
-    "audacious" "mpv" "firefox"
+    "nvim" "git" "alacritty" "nemo" "nemo-fileroller"
+    "audacious" "mpv" "firefox" "mousepad"
 )
 
 prepare() {
