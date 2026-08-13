@@ -13,6 +13,7 @@ depends=(
     # Desktop Environment
     "ly" "hyprland" "wayland" "wofi" "nwg-look" "waybar" "seahorse"
     "hyprlock" "hyprpaper" "dconf-editor" "ffmpegthumbnailer" "usbutils"
+    "swaync" "libnotify"
     
     # Fonts
     "ttf-dejavu" "noto-fonts" "otf-font-awesome" "nerd-fonts"

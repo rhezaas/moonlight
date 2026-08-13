@@ -1,0 +1,80 @@
+* {
+    font-family: "JetBrains Mono";
+    font-size: 13px;
+}
+
+.notification {
+    background: rgba(30, 30, 46, 0.95);
+    color: #cdd6f4;
+
+    border: 1px solid rgba(137, 180, 250, 0.25);
+    border-radius: 12px;
+
+    padding: 12px;
+    margin: 6px;
+}
+
+.notification-content {
+    padding: 4px;
+}
+
+.summary {
+    font-weight: bold;
+    color: #89b4fa;
+}
+
+.body {
+    color: #bac2de;
+}
+
+.close-button {
+    background: transparent;
+    color: #6c7086;
+
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.close-button:hover {
+    background: #f38ba8;
+    color: #1e1e2e;
+}
+
+.control-center {
+    background: rgba(24, 24, 37, 0.97);
+
+    border: 1px solid rgba(137, 180, 250, 0.25);
+    border-radius: 16px;
+
+    padding: 12px;
+}
+
+.control-center-list {
+    background: transparent;
+}
+
+.widget-title {
+    color: #cdd6f4;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.widget-title > button {
+    background: #313244;
+    color: #cdd6f4;
+
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.widget-title > button:hover {
+    background: #45475a;
+}
+
+.blank-window {
+    background: transparent;
+}
+
+.notification-default-action {
+    background: transparent;
+}
